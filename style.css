@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-weight: normal;
+  height: 2000px;
+  width: 100%;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.card {
+  width: 20rem;
+  height: 60rem;
+  background-color: #000;
+  position: relative;
+}
+
+.sale {
+  color: white;
+  padding: 5px;
+  background: orange;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  z-index: 2;
+}
